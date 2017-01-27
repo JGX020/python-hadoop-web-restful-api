@@ -21,3 +21,4 @@ NO.	API URI	Argument	Function
 
 另外有密码认证，需要加群请加微信号a1449458000,qq 1449458000
 ,后续还有api开发
+帐号admin 密码 TvvRvHkyr9b6ls1I
