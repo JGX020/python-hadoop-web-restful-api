@@ -1,24 +1,57 @@
 # python-hadoop-api
 
-HADOOP WEB 操作 api
+python hadoop api
 
-1.	实现标准统一的hadoop CLI。访问地址http://119.29.0.61:8000
 
-        
-NO.	API URI	Argument	Function
+简介
+hadoop作为常用的大数据工具,同时也是云存储常用工具对于普通数据库存储又不一样,特此开发api接口,让大家不仅限于java
 
-1	（GET，POST） /ls		列出目录
+操作说明
 
-2	（POST） /dls	Dir	通过参数列目录
 
-3	（POST）/put	Filepath,filename,disnictfilepath	上传目录
+url：
 
-4	(POST)/get	Sourcefilepath,filename, distinctfilepath	下载目录
+http://119.29.0.61:8000
 
-5	（POST） /mkdir	Filepath	建文件夹
 
-6	（DELETE) /rmdir	filepath	删除文件夹
+api说明：
 
-另外有密码认证，需要加群请加微信号a1449458000,qq 1449458000
-,后续还有api开发
+//列出文件目录
+1、get/post请求
+http://119.29.0.61:8000/ls
+// 通过目录列出文件目录
+2、post请求
+http://119.29.0.61:8000/dls
+参数：dir
+// 上传文件到hadoop
+3、post请求
+参数：filepath：原目录，filename：文件名，disnictfilepath：目的文件目录
+http：//119.29.0.61：8000/put
+//下载文件到本地
+4、post请求
+参数：sourcefilepath：原目录，filename：文件名，distinctfilepath：目的文件目录
+http://119.29.0.61:8000/get
+//创建文件夹
+5、post请求
+参数：filepath：文件目录
+http://119.29.0.61:8000/mkdir
+//删除文件夹
+6、delete请求
+参数：filepath:文件目录
+http://119.29.0.61:8000/rmdir
+
 帐号admin 密码 TvvRvHkyr9b6ls1I
+
+Copyright [蒋光洵] [erick.jiang]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
