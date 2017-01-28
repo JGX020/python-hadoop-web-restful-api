@@ -30,11 +30,15 @@ http://119.29.0.61:8000/dls
 
 参数：dir
 
+{"dir":""}
+
 // 上传文件到hadoop
 
 3、post请求
 
 参数：filepath：原目录，filename：文件名，disnictfilepath：目的文件目录
+
+{"filepath":"","filename":"","disnictfilepath":""}
 
 http：//119.29.0.61：8000/put
 
@@ -44,6 +48,8 @@ http：//119.29.0.61：8000/put
 
 参数：sourcefilepath：原目录，filename：文件名，distinctfilepath：目的文件目录
 
+{"sourcefilepath":"","filename":"","distinctfilepath":""}
+
 http://119.29.0.61:8000/get
 
 //创建文件夹
@@ -52,6 +58,8 @@ http://119.29.0.61:8000/get
 
 参数：filepath：文件目录
 
+{"filepath":""}
+
 http://119.29.0.61:8000/mkdir
 
 //删除文件夹
@@ -59,6 +67,8 @@ http://119.29.0.61:8000/mkdir
 6、delete请求
 
 参数：filepath:文件目录
+
+{"filepath":""}
 
 http://119.29.0.61:8000/rmdir
 
