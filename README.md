@@ -17,27 +17,49 @@ http://119.29.0.61:8000
 api说明：
 
 //列出文件目录
+
 1、get/post请求
+
 http://119.29.0.61:8000/ls
+
 // 通过目录列出文件目录
+
 2、post请求
+
 http://119.29.0.61:8000/dls
+
 参数：dir
+
 // 上传文件到hadoop
+
 3、post请求
+
 参数：filepath：原目录，filename：文件名，disnictfilepath：目的文件目录
+
 http：//119.29.0.61：8000/put
+
 //下载文件到本地
+
 4、post请求
+
 参数：sourcefilepath：原目录，filename：文件名，distinctfilepath：目的文件目录
+
 http://119.29.0.61:8000/get
+
 //创建文件夹
+
 5、post请求
+
 参数：filepath：文件目录
+
 http://119.29.0.61:8000/mkdir
+
 //删除文件夹
+
 6、delete请求
+
 参数：filepath:文件目录
+
 http://119.29.0.61:8000/rmdir
 
 帐号admin 密码 TvvRvHkyr9b6ls1I
