@@ -72,6 +72,61 @@ http://119.29.0.61:8000/mkdir
 
 http://119.29.0.61:8000/rmdir
 
+6、delete请求
+
+参数：filepath:文件目录
+
+{"filepath":""}
+
+http://119.29.0.61:8000/rmdir
+
+7、get请求
+
+http://119.29.0.61:8000/report
+
+8、put请求
+
+参数：filepath:文件目录
+
+{"filepath":""}
+
+http://119.29.0.61:8000/cat
+
+9、put请求
+
+参数：filepath:文件目录,status:权限状态
+{"filepath":"",status:""}
+
+http://119.29.0.61:8000/chmod
+
+10、put请求
+
+参数：filepath:文件目录,group:组
+
+{"filepath":"","group":""}
+
+http://119.29.0.61:8000/chgrp
+
+11、put请求
+
+参数：filepath:文件目录,owner:用户
+
+{"filepath":"","owner":""}
+
+http://119.29.0.61:8000/chown
+
+12、put请求
+
+参数：filepath:文件目录
+
+{"filepath":""}
+
+http://119.29.0.61:8000/find
+
+13、delete请求
+
+http://119.29.0.61:8000/countip
+
 帐号admin 密码 TvvRvHkyr9b6ls1I
 
 Copyright [蒋光洵] [erick.jiang]
