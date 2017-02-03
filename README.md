@@ -127,6 +127,9 @@ http://119.29.0.61:8000/find
 
 http://119.29.0.61:8000/countip
 
+14、post请求
+
+http://119.29.0.61:8000/idrsa_pub
 帐号admin 密码 TvvRvHkyr9b6ls1I
 
 Copyright [蒋光洵] [erick.jiang]
