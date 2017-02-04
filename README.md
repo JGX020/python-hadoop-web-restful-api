@@ -130,6 +130,29 @@ http://119.29.0.61:8000/countip
 14、post请求
 
 http://119.29.0.61:8000/idrsa_pub
+
+15、post请求
+
+http://119.29.0.61:8000/idrsa_pub_comeback
+
+16、get请求
+
+http://119.29.0.61:8000/idrsa_pub_countstatus
+
+17、put请求
+
+参数：program：程序
+
+{"program":""}
+
+http://119.29.0.61:8000/execute
+
+18、put请求
+
+参数：srcfilepath：源文件目录，dstfilepath：目的文件目录
+{"srcfilepath":"","dstfilepath":""}
+
+http://119.29.0.61:8000/mv
 帐号admin 密码 TvvRvHkyr9b6ls1I
 
 Copyright [蒋光洵] [erick.jiang]
