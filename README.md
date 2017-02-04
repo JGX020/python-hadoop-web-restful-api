@@ -8,6 +8,8 @@ hadoop作为常用的大数据工具,同时也是云存储常用工具对于普�
 
 操作说明
 
+文件头：application/json
+
 
 url：
 
