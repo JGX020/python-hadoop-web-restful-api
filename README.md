@@ -10,7 +10,6 @@ description
 hadoop作为常用的大数据工具,同时也是云存储常用工具对于普通数据库存储又不一样,特此开发api接口,让大家不仅限于java
 
 hadoop is a useful big data tool,sometimes is cloud storage tool and other database is not some thing,so I develop these api restful,let
-
 people not just use java
 
 操作说明
